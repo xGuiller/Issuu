@@ -1,0 +1,161 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url(/fonts/MontserratAlternates-Regular.ttf) format("truetype");
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat";
+    text-decoration: none;
+}
+
+/*Encabezado*/
+
+header{
+    position: relative;
+    width: 60%;
+    height: 100px;
+    margin: 0 50px; 
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+
+.logo{
+    position: absolute;
+    width: 200px;
+    top: 50%;
+    margin-left: 20px;
+
+}
+
+.header__text{
+    float: right;
+    margin-right: 20px;   
+    padding-top: 60px;
+}
+
+.text__title{
+    font-weight: bold;    
+}
+
+/*MENU*/
+
+.menu{
+    width: 60%;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align:center;
+    align-items: center;
+}
+
+.menu__title{
+    margin-bottom: 60px;
+}
+
+.menu__links{
+    width: 100%;
+}
+.menu__link--1{
+    display: inline-block;
+    background-color: rgb(80, 134, 237);
+    border-radius: 10px;    
+}
+.link__google{
+    width: 40px;
+    padding-top: 7px;
+    padding-left: 5px;
+}
+.link__facebook{
+    width: 40px;
+    padding-left: 5px;
+    padding-top: 7px;
+}
+
+.menu__link--2{
+    display: inline-block;
+    background-color: rgb(58, 85, 159);
+    border-radius: 10px;
+}
+
+.text__logo{
+    float: right;
+    line-height: 3.5;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+}
+
+.logo__subtitle{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+/*FORMULARIO*/
+
+.layout__form{
+    width: 100%;
+    text-align:center;
+}
+
+.email{
+    width: 350px;
+    margin-bottom: 20px;
+}
+.password{
+    width: 350px;
+}
+
+label{
+    font-weight: bold;
+}
+
+.checkbox{
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.checkbox__text{
+    display: inline-block;
+}
+
+.button__create{
+    width: 200px;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    margin-left: 485px;
+    line-height: 3;
+    border-radius: 30px;
+    border: 2px dashed #8c8989;
+    margin-bottom: 200px;
+}
+
+.button__text{
+    color:#8c8989 ;
+}
+.footer__page{
+    position: relative;
+    width: 60%;
+    height: 100px;
+    margin: 0 50px; 
+    box-shadow: rgba(0, 0, 0, 0.1) 0px -10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.footer__tex1{
+display: inline-block;
+padding-top: 30px;
+padding-left: 60px;
+}
+.footer__text2{
+    display: inline-block;
+    margin-left: 200px;
+    width: 200px;
+    
+}
+
